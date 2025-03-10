@@ -1,0 +1,108 @@
+Inserting 1
+
+Number of elements: 1
+[1]
+****************
+
+Inserting 6
+
+Number of elements: 2
+[6] -> [1]
+****************
+
+Appending 9
+
+Number of elements: 3
+[6] -> [1] -> [9]
+****************
+
+Appending 6
+
+Number of elements: 4
+[6] -> [1] -> [9] -> [6]
+****************
+
+Appending 5
+
+Number of elements: 5
+[6] -> [1] -> [9] -> [6] -> [5]
+****************
+
+Inserting 3
+
+Number of elements: 6
+[3] -> [6] -> [1] -> [9] -> [6] -> [5]
+****************
+
+Appending 2
+
+Number of elements: 7
+[3] -> [6] -> [1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Searching 6 -> true
+
+Number of elements: 7
+[3] -> [6] -> [1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Searching 4 -> false
+
+Number of elements: 7
+[3] -> [6] -> [1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Deleting 6
+
+Number of elements: 6
+[3] -> [1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Deleting 4
+
+Number of elements: 6
+[3] -> [1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Deleting 3
+
+Number of elements: 5
+[1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Searching 5 -> true
+
+Number of elements: 5
+[1] -> [9] -> [6] -> [5] -> [2]
+****************
+
+Deleting 1
+
+Number of elements: 4
+[9] -> [6] -> [5] -> [2]
+****************
+
+Deleting 2
+
+Number of elements: 3
+[9] -> [6] -> [5]
+****************
+
+Deleting 5
+
+Number of elements: 2
+[9] -> [6]
+****************
+
+Deleting 6
+
+Number of elements: 1
+[9]
+****************
+
+Deleting 9
+
+Number of elements: 0
+[]
+****************
+
