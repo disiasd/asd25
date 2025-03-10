@@ -2,6 +2,13 @@ Repository della libreria di algoritmi e strutture dati per il corso di "Algorit
 
 Per testare gli algoritmi di ordinamento su array di interi, compilare SortingTest.java ed eseguire
 - java SortingTest data/list.random.txt mergesort
+- java SortingTest data/list.random.txt quicksort
+- ...
+
+
+Per testare gli algoritmi di ordinamento generici, compilare GenericSortingTest.java ed eseguire
+- java GenericSortingTest data/list.random.txt
+
 
 Per testare la struttura dati Lista, compilare ListTest.java ed eseguire
 - java ListTest data/ListOperations.txt
