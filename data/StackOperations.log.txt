@@ -1,0 +1,108 @@
+Pushing 1
+
+Number of elements: 1
+[1]
+****************
+
+Pushing 6
+
+Number of elements: 2
+[6] -> [1]
+****************
+
+Pushing 7
+
+Number of elements: 3
+[7] -> [6] -> [1]
+****************
+
+Pushing 5
+
+Number of elements: 4
+[5] -> [7] -> [6] -> [1]
+****************
+
+Top -> 5
+
+Number of elements: 4
+[5] -> [7] -> [6] -> [1]
+****************
+
+Popping -> 5
+
+Number of elements: 3
+[7] -> [6] -> [1]
+****************
+
+Popping -> 7
+
+Number of elements: 2
+[6] -> [1]
+****************
+
+Pushing 4
+
+Number of elements: 3
+[4] -> [6] -> [1]
+****************
+
+Pushing 2
+
+Number of elements: 4
+[2] -> [4] -> [6] -> [1]
+****************
+
+Pushing 3
+
+Number of elements: 5
+[3] -> [2] -> [4] -> [6] -> [1]
+****************
+
+Top -> 3
+
+Number of elements: 5
+[3] -> [2] -> [4] -> [6] -> [1]
+****************
+
+Popping -> 3
+
+Number of elements: 4
+[2] -> [4] -> [6] -> [1]
+****************
+
+Popping -> 2
+
+Number of elements: 3
+[4] -> [6] -> [1]
+****************
+
+Popping -> 4
+
+Number of elements: 2
+[6] -> [1]
+****************
+
+Popping -> 6
+
+Number of elements: 1
+[1]
+****************
+
+Popping -> 1
+
+Number of elements: 0
+[]
+****************
+
+Top -> Empty stack
+
+Number of elements: 0
+[]
+****************
+
+Popping -> Empty stack
+
+Number of elements: 0
+[]
+****************
+

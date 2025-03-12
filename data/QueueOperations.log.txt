@@ -1,0 +1,108 @@
+Enqueuing 1
+
+Number of elements: 1
+[1]
+****************
+
+Enqueuing 6
+
+Number of elements: 2
+[1] -> [6]
+****************
+
+Enqueuing 7
+
+Number of elements: 3
+[1] -> [6] -> [7]
+****************
+
+Enqueuing 5
+
+Number of elements: 4
+[1] -> [6] -> [7] -> [5]
+****************
+
+First -> 1
+
+Number of elements: 4
+[1] -> [6] -> [7] -> [5]
+****************
+
+Dequeuing -> 1
+
+Number of elements: 3
+[6] -> [7] -> [5]
+****************
+
+Dequeuing -> 6
+
+Number of elements: 2
+[7] -> [5]
+****************
+
+Enqueuing 4
+
+Number of elements: 3
+[7] -> [5] -> [4]
+****************
+
+Enqueuing 2
+
+Number of elements: 4
+[7] -> [5] -> [4] -> [2]
+****************
+
+Enqueuing 3
+
+Number of elements: 5
+[7] -> [5] -> [4] -> [2] -> [3]
+****************
+
+First -> 7
+
+Number of elements: 5
+[7] -> [5] -> [4] -> [2] -> [3]
+****************
+
+Dequeuing -> 7
+
+Number of elements: 4
+[5] -> [4] -> [2] -> [3]
+****************
+
+Dequeuing -> 5
+
+Number of elements: 3
+[4] -> [2] -> [3]
+****************
+
+Dequeuing -> 4
+
+Number of elements: 2
+[2] -> [3]
+****************
+
+Dequeuing -> 2
+
+Number of elements: 1
+[3]
+****************
+
+Dequeuing -> 3
+
+Number of elements: 0
+[]
+****************
+
+First -> Empty queue
+
+Number of elements: 0
+[]
+****************
+
+Dequeuing -> Empty queue
+
+Number of elements: 0
+[]
+****************
+
