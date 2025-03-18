@@ -24,6 +24,12 @@ Per testare la struttura dati Pila, compilare StackTest.java ed eseguire
 - java StackTest data/StackOperations.txt
 - Confrontare l'ouptut con il contenuto del file data/StackOperations.log.txt
 
+
 Per testare la struttura dati Albero Binario di Ricerca, compilare TreeTest.java (controllare che la riga 54 sia decommentata) ed eseguire
 - java TreeTest data/TreeOperations.txt
 - Confrontare l'ouptut con il contenuto del file data/TreeOperations.BST.log.txt
+
+
+Per testare la struttura dati Albero AVL, compilare TreeTest.java (controllare che la riga 55 sia decommentata) ed eseguire
+- java TreeTest data/TreeOperations.txt
+- Confrontare l'ouptut con il contenuto del file data/TreeOperations.AVL.log.txt
