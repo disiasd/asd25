@@ -52,8 +52,7 @@ public class TreeTest {
         }
 
         BinarySearchTree<Integer,String> T = new BinarySearchTree<>();
-        //AVLTree<Integer,String> T = new AVLTree<>();
-        //AVLDictionary<Integer,String> T = new AVLDictionary<>();
+        //AVLTree<Integer,String> T = new AVLTree<>();  
 
         for(String l: lines) {
             String[] cmd = l.split(" ");
