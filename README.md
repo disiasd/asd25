@@ -40,3 +40,9 @@ Per testare le strutture dati Dizionario, compilare DictionaryTest.java (selezio
 Per confrontare i tempi di calcolo di tre differenti implementazioni della struttura dati dizionario, HashMap (libraria Java), HashTable (implementazione con concatenamento) e AVLDictionary (implementazione con Alberi AVL), compilare DictionarySpeedTest.java ed eseguire
 (il parametro intero indica il numero di coppie (key,data) generate randomicamente)
 - java DictionarySpeedTest 1000000
+
+Per generare tutta la documentazione in formato html:
+- creare una directory <i>doc</i> allo stesso livello delle directory <i>algorithm</> e <i>datastructure</i>
+- entrare nella directory <i>doc</i>
+- eseguire: javadoc ../algorithm/*/*.java ../datastructure/*/*.java
+- il file compresso doc.zip contiene la documentazione già generata
