@@ -42,7 +42,7 @@ Per confrontare i tempi di calcolo di tre differenti implementazioni della strut
 - java DictionarySpeedTest 1000000
 
 Per generare tutta la documentazione in formato html:
-- creare una directory <i>doc</i> allo stesso livello delle directory <i>algorithm</> e <i>datastructure</i>
+- creare una directory <i>doc</i> allo stesso livello delle directory <i>algorithm</i> e <i>datastructure</i>
 - entrare nella directory <i>doc</i>
-- eseguire: javadoc ../algorithm/*/*.java ../datastructure/*/*.java
+- eseguire: javadoc ../algorithm/\*/\*.java ../datastructure/\*/\*.java
 - il file compresso doc.zip contiene la documentazione già generata
