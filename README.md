@@ -33,3 +33,10 @@ Per testare la struttura dati Albero Binario di Ricerca, compilare TreeTest.java
 Per testare la struttura dati Albero AVL, compilare TreeTest.java (controllare che la riga 55 sia decommentata) ed eseguire
 - java TreeTest data/TreeOperations.txt
 - Confrontare l'ouptut con il contenuto del file data/TreeOperations.AVL.log.txt
+
+Per testare le strutture dati Dizionario, compilare DictionaryTest.java (selezionare a riga 54/55 quale implementazione usare) ed eseguire
+- java DictionaryTest data/DictionaryOperations.txt
+
+Per confrontare i tempi di calcolo di tre differenti implementazioni della struttura dati dizionario, HashMap (libraria Java), HashTable (implementazione con concatenamento) e AVLDictionary (implementazione con Alberi AVL), compilare DictionarySpeedTest.java ed eseguire
+(il parametro intero indica il numero di coppie (key,data) generate randomicamente)
+- java DictionarySpeedTest 1000000
