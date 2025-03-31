@@ -184,7 +184,7 @@ public class Sorting {
 	/**
 	 * Returns the maximal element from an arrayheap A
 	 */	
-	private static <T extends Comparable<T>> T findmax(T A[]) {
+	private static <T> T findmax(T A[]) {
 		return A[0];
 	}
 
@@ -196,6 +196,15 @@ public class Sorting {
 		A[0] = A[c];
 		c--;
 		fixheap(A, c, 0);
-	}		
+	}	
+
+	/**
+	 * Swaps the two elements in positions i and j in the array A
+	 */		
+	private static <T> void swap(T A[], int i, int j) {
+		T tmp = A[i];
+		A[i] = A[j];
+		A[j] = tmp;
+	}	
             
 }
