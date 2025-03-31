@@ -37,6 +37,11 @@ Per testare la struttura dati Albero AVL, compilare TreeTest.java (controllare c
 Per testare le strutture dati Dizionario, compilare DictionaryTest.java (selezionare a riga 54/55 quale implementazione usare) ed eseguire
 - java DictionaryTest data/DictionaryOperations.txt
 
+
+Per testare le strutture dati PriorityQueue, compilare PriorityQueueTest.java ed eseguire
+- java PriorityQueueTest data/words.txt orderedWords.txt
+che produrrà il file orderedWords.txt che conterrà tutte le parole nel file data/words.txt ordinate in modo non decrescente rispetto alla loro lunghezza
+
 Per confrontare i tempi di calcolo di tre differenti implementazioni della struttura dati dizionario, HashMap (libraria Java), HashTable (implementazione con concatenamento) e AVLDictionary (implementazione con Alberi AVL), compilare DictionarySpeedTest.java ed eseguire
 (il parametro intero indica il numero di coppie (key,data) generate randomicamente)
 - java DictionarySpeedTest 1000000
