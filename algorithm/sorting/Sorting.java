@@ -120,5 +120,82 @@ public class Sorting {
      */
     public static void countingsort(int A[]) {
     }
+	
+	/**
+	 * Sorts the specified array according to the ordering induced by the compareTo() method in O(n log n)
+	 * using the heapsort algorithm.
+	 * <ul>
+	 * <li> Worst-case: &Theta;(n log n)
+	 * <li> Best-case: &Theta;(n)		
+	 * </ul>
+	 * @param A the array to be sorted
+	 * @param <T> class of the object in the array
+	 */
+	public static <T extends Comparable<T>> void heapsort(T A[]) {
+		heapify(A, A.length - 1, 0);
+		for (int c = (A.length - 1); c > 0; c--) {
+			T k = findmax(A);
+			deletemax(A, c);
+			A[c] = k;
+		}
+	}
+	
+	/**
+	 * Transforms the array A with n elements in an arrayheap.
+	 * It proceeds recursively by fist creating sub arrayheaps rooted at index i
+	 */	
+	private static <T extends Comparable<T>> void heapify(T A[], int n, int i) {
+		if (i >= n) return;
+		heapify(A, n, left(i));
+		heapify(A, n, right(i));
+		fixheap(A, n, i);
+	}
+	
+	/**
+	 * Returns the index of the left son
+	 */	
+	private static int left(int i) {
+		return ( 2*i + 1 );
+	}
+
+	/**
+	 * Returns the index of the right son
+	 */	
+	private static int right(int i) {
+		return ( 2*i + 2 );
+	}
+		
+	/**
+	 * Fix the sub arrayheap rooted at position i of a the arrayheap A of length c, 
+	 * assuming only the root can be ill-placed
+	 */		
+	private static <T extends Comparable<T>> void fixheap(T A[], int c, int i) {
+		int l = left(i), r = right(i);
+		if (l > c) return;
+		int max = l;
+		if (r <= c && A[l].compareTo(A[r]) < 0)
+			max = r;
+		if (A[i].compareTo(A[max]) < 0) {
+			swap(A, i, max);
+			fixheap(A, c, max);
+		}
+	}
+	
+	/**
+	 * Returns the maximal element from an arrayheap A
+	 */	
+	private static <T extends Comparable<T>> T findmax(T A[]) {
+		return A[0];
+	}
+
+	/**
+	 * Removes the maximal element in an arrayheap A of length c
+	 */		
+	private static <T extends Comparable<T>> void deletemax(T A[], int c) {
+		if (c <= 0) return;
+		A[0] = A[c];
+		c--;
+		fixheap(A, c, 0);
+	}		
             
 }
