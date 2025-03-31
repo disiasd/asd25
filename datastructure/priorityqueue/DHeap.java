@@ -1,8 +1,6 @@
 package datastructure.priorityqueue;
 
 import java.util.ArrayList;
-import java.util.Stack;
-import java.util.Iterator;
 
 /**
 * Implementation using d-heap of a generic Priority Queue data structure composed of nodes of 
