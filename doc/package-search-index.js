@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"datastructure.priorityqueue"}];updateSearchResults();
+packageSearchIndex = [{"l":"algorithm.sorting"},{"l":"All Packages","u":"allpackages-index.html"},{"l":"datastructure.dictionary"},{"l":"datastructure.list"},{"l":"datastructure.priorityqueue"},{"l":"datastructure.tree"},{"l":"datastructure.unionfind"}];updateSearchResults();

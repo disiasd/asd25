@@ -37,10 +37,13 @@ Per testare la struttura dati Albero AVL, compilare TreeTest.java (controllare c
 Per testare le strutture dati Dizionario, compilare DictionaryTest.java (selezionare a riga 54/55 quale implementazione usare) ed eseguire
 - java DictionaryTest data/DictionaryOperations.txt
 
-
 Per testare le strutture dati PriorityQueue, compilare PriorityQueueTest.java ed eseguire
 - java PriorityQueueTest data/words.txt orderedWords.txt
 che produrrà il file orderedWords.txt che conterrà tutte le parole nel file data/words.txt ordinate in modo non decrescente rispetto alla loro lunghezza
+
+Per testare le strutture dati UnionFind, compilare UnionFindTest.java ed eseguire
+- java UnionFindTest data/roadNET-TX.txt
+che elaborerà la descrizione delle strade del Texas descritte come collegamenti fra incroci (numerati da 0 a 1393382). Successivamente, da terminale si possono inserire coppie di incroci, e il programma indicherà se tali incroci sono collegati oppure no. Ad esempio, potete provare con le coppie 1393132, 1393133 e 1393132,432567 che sono rispettivamente collegate e non collegate. Per testare le quattro possibili implementazioni bisogna modificare il file UnionFindTest.java alla riga 72, eseguendo una new su QuickFind, QuickUnion, QuickFindSize, QuickUnionRank. Attenzione, l'implementazione QuickFind impiega molto più tempo rispetto a tutte le altre per completare l'analisi del file di input.
 
 Per confrontare i tempi di calcolo di tre differenti implementazioni della struttura dati dizionario, HashMap (libraria Java), HashTable (implementazione con concatenamento) e AVLDictionary (implementazione con Alberi AVL), compilare DictionarySpeedTest.java ed eseguire
 (il parametro intero indica il numero di coppie (key,data) generate randomicamente)
@@ -50,4 +53,3 @@ Per generare tutta la documentazione in formato html:
 - creare una directory <i>doc/</i> allo stesso livello delle directory <i>algorithm/</i> e <i>datastructure/</i>
 - entrare nella directory <i>doc/</i>
 - eseguire: javadoc ../algorithm/\*/\*.java ../datastructure/\*/\*.java
-- il file compresso doc.zip contiene la documentazione già generata
